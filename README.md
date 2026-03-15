@@ -1,8 +1,8 @@
 # Vibe-build with Tris
 
-Tris is a Minecraft client mod that lets you chat an LLM directly from the game. The model can run commands on your behalf, so you can ask it to build, spawn mobs, heal you, etc.
+Tris is a Minecraft client mod that lets you chat with an LLM directly from the game. The model can run commands on your behalf, so you can ask it to build, spawn mobs, heal you, etc.
 
-If you want an improvement for this mod, please, submit an issue. Contributions are also appreciated.
+If you want an improvement for this mod, please submit an issue. Contributions are also appreciated.
 
 ## How to use
 
@@ -46,7 +46,7 @@ The model will call `executeCommand` and show you the result.
 /tris describe my current surroundings
 /tris is there anything dangerous nearby?
 ```
-The model will capture your current view and analyse it.
+The model will capture your current view and analyze it.
 
 **Combining both**
 ```
@@ -56,7 +56,7 @@ The model will capture your current view and analyse it.
 
 ### Conversation context
 
-The model remembers the conversation for the duration of your current world session. When you leave the world the context is cleared, so each new session starts fresh.
+The model remembers the conversation for the duration of your current world session. When you leave the world, the context is cleared, so each new session starts fresh.
 
 ### Configuration
 
