@@ -4,7 +4,9 @@ Tris is a Minecraft client mod that lets you chat with an LLM directly from the 
 
 If you want an improvement for this mod, please submit an issue. Contributions are also appreciated.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lk8c0aLSCg0?si=yoM8qRxAgzK0MtyN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Demo
+
+[![Youtube Video](https://github.com/swalrus1/tris-mc/blob/main/assets/video_thumbnail.png?raw=true)](https://youtu.be/lk8c0aLSCg0)
 
 ## How to use
 
