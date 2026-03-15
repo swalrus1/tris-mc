@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tris",
+	"version": "${version}",
+	"name": "tris",
+	"description": "Vibe-build with Tris - an in-game interface to GPT models.",
+	"authors": [
+        "Semyon Entsov"
+	],
+	"contact": {
+		"homepage": "https://www.linkedin.com/in/semyon-yentsov/",
+		"sources": "https://github.com/swalrus1/tris-mc/"
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/tris/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.swalrus.tris.TrisClient"
+		],
+		"modmenu": [
+			"com.swalrus.tris.TrisModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "tris.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
